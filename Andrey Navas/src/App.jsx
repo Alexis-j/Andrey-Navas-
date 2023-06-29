@@ -1,14 +1,11 @@
-import './App.css'
-import Header from './components/Header';
+import React from "react";
+import Button from "@mui/material/Button";
 
-
-
-function App() {
-return (
-  <div className="App">
-    <Header />
-  </div>
+export default function App() {
+  return (
+    <>
+      <h1>App</h1>
+      <Button variant="contained">El botón</Button>
+    </>
   );
 }
-
-export default App
